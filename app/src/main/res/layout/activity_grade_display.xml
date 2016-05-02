@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_register"
+        android:scrollbarStyle="outsideOverlay">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:text="@string/large_text"
+        android:textSize="15dp"
+        android:id="@+id/GradesView" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dip"
+        android:background="@color/white"
+        android:text="Back To Main"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_login"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp" />
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

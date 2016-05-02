@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shaoxiaoqiang.volley0328">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- <application -->
+    <!-- android:allowBackup="true" -->
+    <!-- android:icon="@mipmap/ic_launcher" -->
+    <!-- android:label="@string/app_name" -->
+    <!-- android:supportsRtl="true" -->
+    <!-- android:theme="@style/AppTheme"> -->
+    <!-- <activity -->
+    <!-- android:name=".MainActivity" -->
+    <!-- android:label="@string/app_name" -->
+    <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MAIN" /> -->
+    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+    <!-- </intent-filter> -->
+    <!-- </activity> -->
+    <!-- </application> -->
+    <application
+        android:name="app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_wolfquiz"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ShowMultipleChoice"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".ShowTrueFalse"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".ShowFillinBlank"
+            android:label="@string/title_activity_show_fillin_blank"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".FetchQuestion"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ShowMultipleChoice_S"
+            android:label="@string/title_activity_show_multiple_choice__s"
+             />
+        <activity
+            android:name=".ShowTrueFalse_S"
+            android:label="@string/title_activity_show_true_false__s"
+             />
+        <activity
+            android:name=".ShowFillinBlank_S"
+            android:label="@string/title_activity_show_fillin_blank__s"
+             />
+        <activity
+            android:name=".UpdateGradebook"
+            android:label="Gradebook"
+             />
+        <activity android:name=".ChooseSet" />
+        <activity android:name=".ShowGradebook" />
+        <activity
+            android:name=".GradeDisplay"
+            android:label="@string/title_activity_grade_display"
+             />
+        <activity android:name=".ChooseSetAdmin" />
+        <activity android:name=".EditQuiz_M" />
+        <activity android:name=".EditQuiz_F" />
+        <activity android:name=".EditQuiz_T" />
+        <activity android:name=".CreateQuiz_MC" />
+        <activity android:name=".CreateQuiz_TF" />
+        <activity android:name=".CreateQuiz_FB" />
+        <activity android:name=".SelectNewQuesType" />
+        <activity android:name=".ChooseQuizSet"></activity>
+    </application>
+
+</manifest>

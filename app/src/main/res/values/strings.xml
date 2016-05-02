@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WolfQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirmpassword">Confirm Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_question">Question</string>
+    <string name="hint_serial">Administrator Serial Number</string>
+    <string name="hint_optiona">Option A</string>
+    <string name="hint_optionb">Option B</string>
+    <string name="hint_optionc">Option C</string>
+    <string name="hint_optiond">Option D</string>
+    <string name="hint_answer">Input Your Answer</string>
+    <string name="hint_correctans">Correct Answer</string>
+    <string name="btn_submitquestion">Create Question</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_back_to_main">Go Back To Main Page</string>
+    <string name="btn_back_to_chooseset">Go Back To Choose Quiz Set Page</string>
+    <string name="btn_chooseset">All Quizes</string>
+    <string name="btn_showgrade">View Grades</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_createquestion">Create Questions</string>
+    <string name="btn_previousquestion">Previous</string>
+    <string name="btn_nextquestion">Next</string>
+    <string name="btn_confirmans">Confirm</string>
+    <string name="btn_showquestion">Show Questions</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_show_quiz">ShowQuiz</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="inputidentity">Input Your Identity</string>
+    <string name="chooseset">Input Quiz Set</string>
+    <string name="btn_enter">Enter</string>
+
+    <string name="title_activity_show_true_false">ShowTrueFalse</string>
+    <string name="title_activity_show_fillin_blank">ShowFillinBlank</string>
+    <string name="title_activity_jump">Jump</string>
+    <string name="title_activity_show_multiple_choice__s">ShowMultipleChoice_S</string>
+    <string name="title_activity_show_true_false__s">ShowTrueFalse_S</string>
+    <string name="title_activity_show_fillin_blank__s">ShowFillinBlank_S</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_grade_display">GradeDisplay</string>
+    <string name="large_text">
+        "The grades for ECE575 Spring 2016 are:.\n\n"
+    </string>
+</resources>
